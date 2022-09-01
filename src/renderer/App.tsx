@@ -3,6 +3,12 @@ import icon from '../../assets/icon.svg';
 import './App.css';
 
 const Hello = () => {
+  console.log('electron window', window.electron);
+  console.log('lol');
+
+  // const ping = () => {
+  //   window.electron.showDialog();
+  // }
   return (
     <div>
       <div className="Hello">
