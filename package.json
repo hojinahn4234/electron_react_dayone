@@ -108,10 +108,13 @@
     }
   },
   "dependencies": {
+    "@types/ajv": "^1.0.0",
+    "ajv": "^8.11.0",
     "electron-debug": "^3.2.0",
     "electron-log": "^4.4.8",
     "electron-store": "^8.1.0",
     "electron-updater": "^5.2.1",
+    "nedb-promises": "^6.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.3.0"
